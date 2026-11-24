@@ -32,8 +32,8 @@ Markdown subset, slug rule, report), rewritten for speed:
 On the kit's practice set (3 cases, 250–480 Markdown sources each):
 
 - Correctness: **3/3 cases byte-identical** to makefun-site 1.0.0.
-- Speed: **~2.7× faster** than the house baseline (~225 ms vs ~601 ms per set,
-  mean over repeated runs on this machine).
+- Speed: **~3.1× faster** than the house baseline (~197 ms vs ~605 ms per set,
+  15 interleaved runs per case on this machine; per case 3.29× / 2.92× / 3.07×).
 
 ## Layout
 
